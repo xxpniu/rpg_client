@@ -1,0 +1,8 @@
+{
+	"Level": 1,
+    "MaxPlayer": 1000,
+	"ListenPort": 2100,
+	"ListenHost": "129.211.9.75",
+	"LoginServerPort": 1800,
+	"LoginServiceHost": "127.0.0.1"
+}

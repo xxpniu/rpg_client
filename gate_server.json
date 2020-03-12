@@ -1,0 +1,14 @@
+{
+	"ListenPort": 2000,
+	"Host": "129.211.9.75",
+	"ServicePort": 1801,
+	"ServiceHost": "129.211.9.75",
+	"LoginServerHost": "127.0.0.1",
+	"LoginServerPort": "1800",
+	"DBHost": "mongodb://127.0.0.1:27017/",
+	"DBName": "gate01",
+	"ServerID": "1",
+	"ConfigPath": "../",
+	"Log": true ,
+	"EnableGM": true
+}
