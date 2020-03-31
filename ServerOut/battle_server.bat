@@ -1,2 +1,2 @@
-cd Publish
-"T&R.exe" ../battle_server.json >>../logs/battle.log
+cd BattleServer
+"ARPGFun.exe" ../battle_server.json >>../logs/battle.log
