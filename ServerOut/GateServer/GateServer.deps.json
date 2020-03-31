@@ -10,13 +10,13 @@
       "GateServer/1.0.0": {
         "dependencies": {
           "Json": "1.0.0",
-          "MongoDB.Bson": "2.10.1",
-          "MongoDB.Driver": "2.10.1",
-          "MongoDB.Driver.Core": "2.10.1",
-          "MongoDB.Driver.GridFS": "2.10.1",
+          "MongoDB.Bson": "2.10.2",
+          "MongoDB.Driver": "2.10.2",
+          "MongoDB.Driver.Core": "2.10.2",
+          "MongoDB.Driver.GridFS": "2.10.2",
           "ServerUtility": "1.0.0",
           "XNet.Libs": "1.0.0",
-          "mongocsharpdriver": "2.10.1",
+          "mongocsharpdriver": "2.10.2",
           "Google.Protobuf": "3.7.0.0",
           "Xsoft.Proto": "0.0.0.0"
         },
@@ -54,20 +54,20 @@
           "System.Runtime.InteropServices": "4.3.0"
         }
       },
-      "mongocsharpdriver/2.10.1": {
+      "mongocsharpdriver/2.10.2": {
         "dependencies": {
-          "MongoDB.Bson": "2.10.1",
-          "MongoDB.Driver": "2.10.1",
-          "MongoDB.Driver.Core": "2.10.1"
+          "MongoDB.Bson": "2.10.2",
+          "MongoDB.Driver": "2.10.2",
+          "MongoDB.Driver.Core": "2.10.2"
         },
         "runtime": {
           "lib/netstandard1.5/MongoDB.Driver.Legacy.dll": {
-            "assemblyVersion": "2.10.1.0",
-            "fileVersion": "2.10.1.0"
+            "assemblyVersion": "2.10.2.0",
+            "fileVersion": "2.10.2.0"
           }
         }
       },
-      "MongoDB.Bson/2.10.1": {
+      "MongoDB.Bson/2.10.2": {
         "dependencies": {
           "System.Collections.NonGeneric": "4.0.1",
           "System.Diagnostics.Process": "4.1.0",
@@ -77,30 +77,30 @@
         },
         "runtime": {
           "lib/netstandard1.5/MongoDB.Bson.dll": {
-            "assemblyVersion": "2.10.1.0",
-            "fileVersion": "2.10.1.0"
+            "assemblyVersion": "2.10.2.0",
+            "fileVersion": "2.10.2.0"
           }
         }
       },
-      "MongoDB.Driver/2.10.1": {
+      "MongoDB.Driver/2.10.2": {
         "dependencies": {
-          "MongoDB.Bson": "2.10.1",
-          "MongoDB.Driver.Core": "2.10.1",
+          "MongoDB.Bson": "2.10.2",
+          "MongoDB.Driver.Core": "2.10.2",
           "MongoDB.Libmongocrypt": "1.0.0",
           "System.ComponentModel.TypeConverter": "4.1.0",
           "System.Linq.Queryable": "4.0.1"
         },
         "runtime": {
           "lib/netstandard1.5/MongoDB.Driver.dll": {
-            "assemblyVersion": "2.10.1.0",
-            "fileVersion": "2.10.1.0"
+            "assemblyVersion": "2.10.2.0",
+            "fileVersion": "2.10.2.0"
           }
         }
       },
-      "MongoDB.Driver.Core/2.10.1": {
+      "MongoDB.Driver.Core/2.10.2": {
         "dependencies": {
           "DnsClient": "1.2.0",
-          "MongoDB.Bson": "2.10.1",
+          "MongoDB.Bson": "2.10.2",
           "MongoDB.Libmongocrypt": "1.0.0",
           "SharpCompress": "0.23.0",
           "System.Collections.Specialized": "4.0.1",
@@ -113,21 +113,21 @@
         },
         "runtime": {
           "lib/netstandard1.5/MongoDB.Driver.Core.dll": {
-            "assemblyVersion": "2.10.1.0",
-            "fileVersion": "2.10.1.0"
+            "assemblyVersion": "2.10.2.0",
+            "fileVersion": "2.10.2.0"
           }
         }
       },
-      "MongoDB.Driver.GridFS/2.10.1": {
+      "MongoDB.Driver.GridFS/2.10.2": {
         "dependencies": {
-          "MongoDB.Bson": "2.10.1",
-          "MongoDB.Driver": "2.10.1",
-          "MongoDB.Driver.Core": "2.10.1"
+          "MongoDB.Bson": "2.10.2",
+          "MongoDB.Driver": "2.10.2",
+          "MongoDB.Driver.Core": "2.10.2"
         },
         "runtime": {
           "lib/netstandard1.5/MongoDB.Driver.GridFS.dll": {
-            "assemblyVersion": "2.10.1.0",
-            "fileVersion": "2.10.1.0"
+            "assemblyVersion": "2.10.2.0",
+            "fileVersion": "2.10.2.0"
           }
         }
       },
@@ -923,40 +923,40 @@
       "path": "microsoft.win32.registry/4.0.0",
       "hashPath": "microsoft.win32.registry.4.0.0.nupkg.sha512"
     },
-    "mongocsharpdriver/2.10.1": {
+    "mongocsharpdriver/2.10.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-vsWDSspal1yYD1qRLCzDsdLxfni5TfKCDH5ezp4DShhhNKkXVdKWGGwtbTxfVizWIOzIKfPJ5cRZCziLN/0ErQ==",
-      "path": "mongocsharpdriver/2.10.1",
-      "hashPath": "mongocsharpdriver.2.10.1.nupkg.sha512"
+      "sha512": "sha512-SMI4NEGGTiT2WvorLi8hOUcYKcp1U/w8SE65M5rISyT3GdqMNCSO3tIW7VF3q5+NlFL7UzIOLxc7/XBgK16q8g==",
+      "path": "mongocsharpdriver/2.10.2",
+      "hashPath": "mongocsharpdriver.2.10.2.nupkg.sha512"
     },
-    "MongoDB.Bson/2.10.1": {
+    "MongoDB.Bson/2.10.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-BTQKxYytJL4CZob76qVAVTM51AryI/wE3JkASRtWUYCUSEJVMBGBVtzV5O9AUo6Tjrn8qQXvtGVPfACb6x53Kw==",
-      "path": "mongodb.bson/2.10.1",
-      "hashPath": "mongodb.bson.2.10.1.nupkg.sha512"
+      "sha512": "sha512-MUFIFmXwTfc53zH4Ik54aNofKkrU1zWBl/6ShOtHmANk+cejGhI5EnLZb/L6cSS3t0hnsaSjeAZ8bF2UUSYA1g==",
+      "path": "mongodb.bson/2.10.2",
+      "hashPath": "mongodb.bson.2.10.2.nupkg.sha512"
     },
-    "MongoDB.Driver/2.10.1": {
+    "MongoDB.Driver/2.10.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-BIJgMPsdeFzg5SsW5K1+GPNXddwJbhUcgcPic6EtmF9o8o0Inf/SyvuxtdB25zQV+UmR1rDJ7OfmTwddqmEDZA==",
-      "path": "mongodb.driver/2.10.1",
-      "hashPath": "mongodb.driver.2.10.1.nupkg.sha512"
+      "sha512": "sha512-H0WtJy8FVlmW/g0sCghFgH41pjUFR7bwXWIHl/hMqaL+rKFtBlUrow9tBEd1MFq3G4P/bLTtsRPIXX/MzJiSNQ==",
+      "path": "mongodb.driver/2.10.2",
+      "hashPath": "mongodb.driver.2.10.2.nupkg.sha512"
     },
-    "MongoDB.Driver.Core/2.10.1": {
+    "MongoDB.Driver.Core/2.10.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-TmiqxJQ2XVsFAY1tvcxHr2Q1HFe2J0MqKZ1F9VMe44ZxtiEzxsugJJQstYOmnt5Ut9zU70SzQLTpDLlQG7aBow==",
-      "path": "mongodb.driver.core/2.10.1",
-      "hashPath": "mongodb.driver.core.2.10.1.nupkg.sha512"
+      "sha512": "sha512-fW7Vq8u3CC+ivqKiWOIO4F4pDy+UD1onllcjT2Pi5a5xw3A2rtYt2kOWaR/Kxd+aakoNMXCHEZyDXusNM1n/Lw==",
+      "path": "mongodb.driver.core/2.10.2",
+      "hashPath": "mongodb.driver.core.2.10.2.nupkg.sha512"
     },
-    "MongoDB.Driver.GridFS/2.10.1": {
+    "MongoDB.Driver.GridFS/2.10.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-uT4jFhaTT7+n107bgJyeDJxuD28giPffBYEM1wF1svCipuXx1TjTQlXojz22c3QZ7S/TctpnOpsHrcLH+l+jtg==",
-      "path": "mongodb.driver.gridfs/2.10.1",
-      "hashPath": "mongodb.driver.gridfs.2.10.1.nupkg.sha512"
+      "sha512": "sha512-y8MZvORlK9vN7zgClorapYgfTycOkA/sjMB5a7Yndb6+EHtA3PLGYlU9COOlFG3NV1FfS0cmmfUvPp2rcMPsWw==",
+      "path": "mongodb.driver.gridfs/2.10.2",
+      "hashPath": "mongodb.driver.gridfs.2.10.2.nupkg.sha512"
     },
     "MongoDB.Libmongocrypt/1.0.0": {
       "type": "package",
