@@ -65,9 +65,6 @@
     <type fullname="AutoRemoveOnServer" preserve="all" />
     <type fullname="PlayerBornPosition" preserve="all" />
   </assembly>
-  <assembly fullname="Application, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UIEventSwipe" preserve="all" />
-  </assembly>
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.UI.Button" preserve="all" />
     <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
@@ -87,6 +84,9 @@
     <type fullname="UnityEngine.UI.Toggle" preserve="all" />
     <type fullname="UnityEngine.UI.ToggleGroup" preserve="all" />
     <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
+  </assembly>
+  <assembly fullname="Application, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UIEventSwipe" preserve="all" />
   </assembly>
   <assembly fullname="Joystick, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="zFrame.UI.DirectionArrow" preserve="all" />
