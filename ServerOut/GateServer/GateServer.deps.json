@@ -10,13 +10,14 @@
       "GateServer/1.0.0": {
         "dependencies": {
           "Json": "1.0.0",
-          "MongoDB.Bson": "2.10.2",
-          "MongoDB.Driver": "2.10.2",
-          "MongoDB.Driver.Core": "2.10.2",
-          "MongoDB.Driver.GridFS": "2.10.2",
+          "MongoDB.Bson": "2.10.3",
+          "MongoDB.Driver": "2.10.3",
+          "MongoDB.Driver.Core": "2.10.3",
+          "MongoDB.Driver.GridFS": "2.10.3",
           "ServerUtility": "1.0.0",
           "XNet.Libs": "1.0.0",
-          "mongocsharpdriver": "2.10.2",
+          "ZooKeeperNetEx": "3.4.12.4",
+          "mongocsharpdriver": "2.10.3",
           "Google.Protobuf": "3.7.0.0",
           "Xsoft.Proto": "0.0.0.0"
         },
@@ -24,14 +25,14 @@
           "GateServer.dll": {}
         }
       },
-      "DnsClient/1.2.0": {
+      "DnsClient/1.3.1": {
         "dependencies": {
           "System.Buffers": "4.4.0"
         },
         "runtime": {
           "lib/netstandard2.0/DnsClient.dll": {
-            "assemblyVersion": "1.2.0.0",
-            "fileVersion": "1.2.0.0"
+            "assemblyVersion": "1.3.1.0",
+            "fileVersion": "1.3.1.0"
           }
         }
       },
@@ -54,20 +55,20 @@
           "System.Runtime.InteropServices": "4.3.0"
         }
       },
-      "mongocsharpdriver/2.10.2": {
+      "mongocsharpdriver/2.10.3": {
         "dependencies": {
-          "MongoDB.Bson": "2.10.2",
-          "MongoDB.Driver": "2.10.2",
-          "MongoDB.Driver.Core": "2.10.2"
+          "MongoDB.Bson": "2.10.3",
+          "MongoDB.Driver": "2.10.3",
+          "MongoDB.Driver.Core": "2.10.3"
         },
         "runtime": {
           "lib/netstandard1.5/MongoDB.Driver.Legacy.dll": {
-            "assemblyVersion": "2.10.2.0",
-            "fileVersion": "2.10.2.0"
+            "assemblyVersion": "2.10.3.0",
+            "fileVersion": "2.10.3.0"
           }
         }
       },
-      "MongoDB.Bson/2.10.2": {
+      "MongoDB.Bson/2.10.3": {
         "dependencies": {
           "System.Collections.NonGeneric": "4.0.1",
           "System.Diagnostics.Process": "4.1.0",
@@ -77,35 +78,35 @@
         },
         "runtime": {
           "lib/netstandard1.5/MongoDB.Bson.dll": {
-            "assemblyVersion": "2.10.2.0",
-            "fileVersion": "2.10.2.0"
+            "assemblyVersion": "2.10.3.0",
+            "fileVersion": "2.10.3.0"
           }
         }
       },
-      "MongoDB.Driver/2.10.2": {
+      "MongoDB.Driver/2.10.3": {
         "dependencies": {
-          "MongoDB.Bson": "2.10.2",
-          "MongoDB.Driver.Core": "2.10.2",
+          "MongoDB.Bson": "2.10.3",
+          "MongoDB.Driver.Core": "2.10.3",
           "MongoDB.Libmongocrypt": "1.0.0",
           "System.ComponentModel.TypeConverter": "4.1.0",
           "System.Linq.Queryable": "4.0.1"
         },
         "runtime": {
           "lib/netstandard1.5/MongoDB.Driver.dll": {
-            "assemblyVersion": "2.10.2.0",
-            "fileVersion": "2.10.2.0"
+            "assemblyVersion": "2.10.3.0",
+            "fileVersion": "2.10.3.0"
           }
         }
       },
-      "MongoDB.Driver.Core/2.10.2": {
+      "MongoDB.Driver.Core/2.10.3": {
         "dependencies": {
-          "DnsClient": "1.2.0",
-          "MongoDB.Bson": "2.10.2",
+          "DnsClient": "1.3.1",
+          "MongoDB.Bson": "2.10.3",
           "MongoDB.Libmongocrypt": "1.0.0",
           "SharpCompress": "0.23.0",
           "System.Collections.Specialized": "4.0.1",
           "System.Diagnostics.TextWriterTraceListener": "4.0.0",
-          "System.Diagnostics.TraceSource": "4.0.0",
+          "System.Diagnostics.TraceSource": "4.3.0",
           "System.Net.NameResolution": "4.3.0",
           "System.Net.Security": "4.3.2",
           "System.Security.SecureString": "4.0.0",
@@ -113,21 +114,21 @@
         },
         "runtime": {
           "lib/netstandard1.5/MongoDB.Driver.Core.dll": {
-            "assemblyVersion": "2.10.2.0",
-            "fileVersion": "2.10.2.0"
+            "assemblyVersion": "2.10.3.0",
+            "fileVersion": "2.10.3.0"
           }
         }
       },
-      "MongoDB.Driver.GridFS/2.10.2": {
+      "MongoDB.Driver.GridFS/2.10.3": {
         "dependencies": {
-          "MongoDB.Bson": "2.10.2",
-          "MongoDB.Driver": "2.10.2",
-          "MongoDB.Driver.Core": "2.10.2"
+          "MongoDB.Bson": "2.10.3",
+          "MongoDB.Driver": "2.10.3",
+          "MongoDB.Driver.Core": "2.10.3"
         },
         "runtime": {
           "lib/netstandard1.5/MongoDB.Driver.GridFS.dll": {
-            "assemblyVersion": "2.10.2.0",
-            "fileVersion": "2.10.2.0"
+            "assemblyVersion": "2.10.3.0",
+            "fileVersion": "2.10.3.0"
           }
         }
       },
@@ -317,7 +318,7 @@
       },
       "System.Diagnostics.TextWriterTraceListener/4.0.0": {
         "dependencies": {
-          "System.Diagnostics.TraceSource": "4.0.0",
+          "System.Diagnostics.TraceSource": "4.3.0",
           "System.Globalization": "4.3.0",
           "System.IO": "4.3.0",
           "System.Resources.ResourceManager": "4.3.0",
@@ -325,7 +326,7 @@
           "System.Threading": "4.3.0"
         }
       },
-      "System.Diagnostics.TraceSource/4.0.0": {
+      "System.Diagnostics.TraceSource/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.1.2",
           "System.Collections": "4.3.0",
@@ -851,6 +852,14 @@
           "System.Runtime.Handles": "4.3.0"
         }
       },
+      "ZooKeeperNetEx/3.4.12.4": {
+        "runtime": {
+          "lib/netstandard2.0/ZooKeeperNetEx.dll": {
+            "assemblyVersion": "3.4.12.4",
+            "fileVersion": "3.4.12.4"
+          }
+        }
+      },
       "Json/1.0.0": {
         "runtime": {
           "Json.dll": {}
@@ -860,7 +869,8 @@
         "dependencies": {
           "Json": "1.0.0",
           "Mono.Posix.NETStandard": "1.0.0",
-          "XNet.Libs": "1.0.0"
+          "XNet.Libs": "1.0.0",
+          "ZooKeeperNetEx": "3.4.12.4"
         },
         "runtime": {
           "ServerUtility.dll": {}
@@ -895,12 +905,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DnsClient/1.2.0": {
+    "DnsClient/1.3.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-P34wUkeqU4FoQiOMV8OjpdeDZKs4d3r+VlHuKJ6eO5feiZgna3+9MF5orHRUn3DAv1g/HPE5hlkGucmxmsFfBw==",
-      "path": "dnsclient/1.2.0",
-      "hashPath": "dnsclient.1.2.0.nupkg.sha512"
+      "sha512": "sha512-b9XczgqSjs3dd+OlV799jn+LXxdfirln1q36GKjs3QwWBhjhgIvgHLEG5s2VrBLcP4ogQjtA0PZ5+AmRJ35Vhg==",
+      "path": "dnsclient/1.3.1",
+      "hashPath": "dnsclient.1.3.1.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/2.1.2": {
       "type": "package",
@@ -923,40 +933,40 @@
       "path": "microsoft.win32.registry/4.0.0",
       "hashPath": "microsoft.win32.registry.4.0.0.nupkg.sha512"
     },
-    "mongocsharpdriver/2.10.2": {
+    "mongocsharpdriver/2.10.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-SMI4NEGGTiT2WvorLi8hOUcYKcp1U/w8SE65M5rISyT3GdqMNCSO3tIW7VF3q5+NlFL7UzIOLxc7/XBgK16q8g==",
-      "path": "mongocsharpdriver/2.10.2",
-      "hashPath": "mongocsharpdriver.2.10.2.nupkg.sha512"
+      "sha512": "sha512-QFLZ81CJ2E955LYVKWmwjngLBUCq+PhE2NYoE+RQt2noo4qWMAnGFS1Sdio5DxB8Zxwnv2+mtiogKnt0l+gc9w==",
+      "path": "mongocsharpdriver/2.10.3",
+      "hashPath": "mongocsharpdriver.2.10.3.nupkg.sha512"
     },
-    "MongoDB.Bson/2.10.2": {
+    "MongoDB.Bson/2.10.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MUFIFmXwTfc53zH4Ik54aNofKkrU1zWBl/6ShOtHmANk+cejGhI5EnLZb/L6cSS3t0hnsaSjeAZ8bF2UUSYA1g==",
-      "path": "mongodb.bson/2.10.2",
-      "hashPath": "mongodb.bson.2.10.2.nupkg.sha512"
+      "sha512": "sha512-UT6w7vsiXlCH7mABxj/NuaGR0KWfXIW5zP5RHW16JrviiygSoEb6fEUhs1QgrjdcNHP+gns1/T9Sfqi4KUPPew==",
+      "path": "mongodb.bson/2.10.3",
+      "hashPath": "mongodb.bson.2.10.3.nupkg.sha512"
     },
-    "MongoDB.Driver/2.10.2": {
+    "MongoDB.Driver/2.10.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-H0WtJy8FVlmW/g0sCghFgH41pjUFR7bwXWIHl/hMqaL+rKFtBlUrow9tBEd1MFq3G4P/bLTtsRPIXX/MzJiSNQ==",
-      "path": "mongodb.driver/2.10.2",
-      "hashPath": "mongodb.driver.2.10.2.nupkg.sha512"
+      "sha512": "sha512-KArEHjZrga9cGM8/OcYpr5vkQq4V8P54L3L/D8oUNAVREwzJ2BExX8LNNV7Y2qt9lWk3kO8JkUcjgoD77DyDog==",
+      "path": "mongodb.driver/2.10.3",
+      "hashPath": "mongodb.driver.2.10.3.nupkg.sha512"
     },
-    "MongoDB.Driver.Core/2.10.2": {
+    "MongoDB.Driver.Core/2.10.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-fW7Vq8u3CC+ivqKiWOIO4F4pDy+UD1onllcjT2Pi5a5xw3A2rtYt2kOWaR/Kxd+aakoNMXCHEZyDXusNM1n/Lw==",
-      "path": "mongodb.driver.core/2.10.2",
-      "hashPath": "mongodb.driver.core.2.10.2.nupkg.sha512"
+      "sha512": "sha512-YnHsNpIVDzjrDDagg1mhu7F7i11zAdSxQlmhbD3+VuU5Yb2fcjVrS2s90QsrshxuAAXg3DreYNx7hWBK4JvKGg==",
+      "path": "mongodb.driver.core/2.10.3",
+      "hashPath": "mongodb.driver.core.2.10.3.nupkg.sha512"
     },
-    "MongoDB.Driver.GridFS/2.10.2": {
+    "MongoDB.Driver.GridFS/2.10.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-y8MZvORlK9vN7zgClorapYgfTycOkA/sjMB5a7Yndb6+EHtA3PLGYlU9COOlFG3NV1FfS0cmmfUvPp2rcMPsWw==",
-      "path": "mongodb.driver.gridfs/2.10.2",
-      "hashPath": "mongodb.driver.gridfs.2.10.2.nupkg.sha512"
+      "sha512": "sha512-duTXj3Vgsl/fNBsYh6S14sODSE63QFHIapQfF3//DRsOLUtEqJ2jc2NQ1ZeL+cl+8+Vim23tnlvGNGTN+F8C3g==",
+      "path": "mongodb.driver.gridfs/2.10.3",
+      "hashPath": "mongodb.driver.gridfs.2.10.3.nupkg.sha512"
     },
     "MongoDB.Libmongocrypt/1.0.0": {
       "type": "package",
@@ -1168,12 +1178,12 @@
       "path": "system.diagnostics.textwritertracelistener/4.0.0",
       "hashPath": "system.diagnostics.textwritertracelistener.4.0.0.nupkg.sha512"
     },
-    "System.Diagnostics.TraceSource/4.0.0": {
+    "System.Diagnostics.TraceSource/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-q5bGzzvXVi+dIMiPWRhXZV7r+Os3TEOuRW5LHsAUDGpqJHol8XiLokVpsgAfPqHHNkyx1bbv5lRZqRkRrGZKxQ==",
-      "path": "system.diagnostics.tracesource/4.0.0",
-      "hashPath": "system.diagnostics.tracesource.4.0.0.nupkg.sha512"
+      "sha512": "sha512-VnYp1NxGx8Ww731y2LJ1vpfb/DKVNKEZ8Jsh5SgQTZREL/YpWRArgh9pI8CDLmgHspZmLL697CaLvH85qQpRiw==",
+      "path": "system.diagnostics.tracesource/4.3.0",
+      "hashPath": "system.diagnostics.tracesource.4.3.0.nupkg.sha512"
     },
     "System.Diagnostics.Tracing/4.3.0": {
       "type": "package",
@@ -1517,6 +1527,13 @@
       "sha512": "sha512-RQpA+UpI6Tlpeedk5JStYk2DM/M3i5HqabI/yDbfj1xDu9bIz9kdoquVpHbh/wQjOJaOCbcgRH8iQcAUv8dRWQ==",
       "path": "system.threading.threadpool/4.3.0",
       "hashPath": "system.threading.threadpool.4.3.0.nupkg.sha512"
+    },
+    "ZooKeeperNetEx/3.4.12.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YECtByVSH7TRjQKplwOWiKyanCqYE5eEkGk5YtHJgsnbZ6+p1o0Gvs5RIsZLotiAVa6Niez1BJyKY/RDY/L6zg==",
+      "path": "zookeepernetex/3.4.12.4",
+      "hashPath": "zookeepernetex.3.4.12.4.nupkg.sha512"
     },
     "Json/1.0.0": {
       "type": "project",
