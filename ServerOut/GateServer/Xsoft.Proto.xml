@@ -1138,151 +1138,6 @@
             描述
             </summary>
         </member>
-        <member name="T:EConfig.MonsterGroupData">
-            <summary>
-            怪物刷新组
-            </summary>
-        </member>
-        <member name="P:EConfig.MonsterGroupData.DropID">
-            <summary>
-            掉落ID
-            </summary>
-        </member>
-        <member name="P:EConfig.MonsterGroupData.MonsterID">
-            <summary>
-            怪物ID
-            </summary>
-        </member>
-        <member name="P:EConfig.MonsterGroupData.Pro">
-            <summary>
-            出现概率
-            </summary>
-        </member>
-        <member name="P:EConfig.MonsterGroupData.MonsterNumberMin">
-            <summary>
-            最少刷怪数
-            </summary>
-        </member>
-        <member name="P:EConfig.MonsterGroupData.MonsterNumberMax">
-            <summary>
-            最大刷怪数
-            </summary>
-        </member>
-        <member name="P:EConfig.MonsterGroupData.StandType">
-            <summary>
-            站位
-            </summary>
-        </member>
-        <member name="P:EConfig.MonsterGroupData.StandParams">
-            <summary>
-            参数
-            </summary>
-        </member>
-        <member name="T:EConfig.DropGroupData">
-            <summary>
-            掉落组
-            </summary>
-        </member>
-        <member name="P:EConfig.DropGroupData.Name">
-            <summary>
-            名称
-            </summary>
-        </member>
-        <member name="P:EConfig.DropGroupData.DropPro">
-            <summary>
-            万分比掉落
-            </summary>
-        </member>
-        <member name="P:EConfig.DropGroupData.DropMinNum">
-            <summary>
-            掉落种类小
-            </summary>
-        </member>
-        <member name="P:EConfig.DropGroupData.DropMaxNum">
-            <summary>
-            最大
-            </summary>
-        </member>
-        <member name="P:EConfig.DropGroupData.DropItem">
-            <summary>
-            道具
-            </summary>
-        </member>
-        <member name="P:EConfig.DropGroupData.DropNum">
-            <summary>
-            掉落数
-            </summary>
-        </member>
-        <member name="P:EConfig.DropGroupData.Pro">
-            <summary>
-            掉落概率
-            </summary>
-        </member>
-        <member name="P:EConfig.DropGroupData.GoldMin">
-            <summary>
-            掉落金币
-            </summary>
-        </member>
-        <member name="P:EConfig.DropGroupData.GoldMax">
-            <summary>
-            掉落金币大
-            </summary>
-        </member>
-        <member name="T:EConfig.MonsterData">
-            <summary>
-            怪物表
-            </summary>
-        </member>
-        <member name="P:EConfig.MonsterData.NamePrefix">
-            <summary>
-            名称
-            </summary>
-        </member>
-        <member name="P:EConfig.MonsterData.CharacterID">
-            <summary>
-            角色ID
-            </summary>
-        </member>
-        <member name="P:EConfig.MonsterData.Exp">
-            <summary>
-            杀死获得经验
-            </summary>
-        </member>
-        <member name="P:EConfig.MonsterData.Level">
-            <summary>
-            等级
-            </summary>
-        </member>
-        <member name="P:EConfig.MonsterData.HPMax">
-            <summary>
-            生命修正
-            </summary>
-        </member>
-        <member name="P:EConfig.MonsterData.DamageMin">
-            <summary>
-            伤害修正
-            </summary>
-        </member>
-        <member name="P:EConfig.MonsterData.DamageMax">
-            <summary>
-            伤害修正
-            </summary>
-        </member>
-        <member name="P:EConfig.MonsterData.Force">
-            <summary>
-            力量
-            </summary>
-        </member>
-        <member name="P:EConfig.MonsterData.Agility">
-            <summary>
-            敏捷
-            </summary>
-        </member>
-        <member name="P:EConfig.MonsterData.Knowledeg">
-            <summary>
-            智力
-            </summary>
-        </member>
         <member name="T:EConfig.CharacterLevelUpData">
             <summary>
             英雄升级经验表
@@ -1418,6 +1273,31 @@
             攻击类型
             </summary>
         </member>
+        <member name="T:EConfig.CharacterPlayerData">
+            <summary>
+            玩家角色表
+            </summary>
+        </member>
+        <member name="P:EConfig.CharacterPlayerData.CharacterID">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:EConfig.CharacterPlayerData.NormalAttack">
+            <summary>
+            普通攻击技能
+            </summary>
+        </member>
+        <member name="P:EConfig.CharacterPlayerData.Motion">
+            <summary>
+            创建角色动作
+            </summary>
+        </member>
+        <member name="P:EConfig.CharacterPlayerData.Description">
+            <summary>
+            角色说明
+            </summary>
+        </member>
         <member name="T:EConfig.CharacterMagicData">
             <summary>
             角色技能
@@ -1478,31 +1358,6 @@
             描述
             </summary>
         </member>
-        <member name="T:EConfig.CharacterPlayerData">
-            <summary>
-            玩家角色表
-            </summary>
-        </member>
-        <member name="P:EConfig.CharacterPlayerData.CharacterID">
-            <summary>
-            名称
-            </summary>
-        </member>
-        <member name="P:EConfig.CharacterPlayerData.NormalAttack">
-            <summary>
-            普通攻击技能
-            </summary>
-        </member>
-        <member name="P:EConfig.CharacterPlayerData.Motion">
-            <summary>
-            创建角色动作
-            </summary>
-        </member>
-        <member name="P:EConfig.CharacterPlayerData.Description">
-            <summary>
-            角色说明
-            </summary>
-        </member>
         <member name="T:EConfig.ConstantValue">
             <summary>
             游戏常量表
@@ -1536,6 +1391,56 @@
         <member name="P:EConfig.ConstantValue.PACKAGE_SIZE_LIMIT">
             <summary>
             购买消耗增容量上限
+            </summary>
+        </member>
+        <member name="T:EConfig.DropGroupData">
+            <summary>
+            掉落组
+            </summary>
+        </member>
+        <member name="P:EConfig.DropGroupData.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:EConfig.DropGroupData.DropPro">
+            <summary>
+            万分比掉落
+            </summary>
+        </member>
+        <member name="P:EConfig.DropGroupData.DropMinNum">
+            <summary>
+            掉落种类小
+            </summary>
+        </member>
+        <member name="P:EConfig.DropGroupData.DropMaxNum">
+            <summary>
+            最大
+            </summary>
+        </member>
+        <member name="P:EConfig.DropGroupData.DropItem">
+            <summary>
+            道具
+            </summary>
+        </member>
+        <member name="P:EConfig.DropGroupData.DropNum">
+            <summary>
+            掉落数
+            </summary>
+        </member>
+        <member name="P:EConfig.DropGroupData.Pro">
+            <summary>
+            掉落概率
+            </summary>
+        </member>
+        <member name="P:EConfig.DropGroupData.GoldMin">
+            <summary>
+            掉落金币
+            </summary>
+        </member>
+        <member name="P:EConfig.DropGroupData.GoldMax">
+            <summary>
+            掉落金币大
             </summary>
         </member>
         <member name="T:EConfig.EquipmentLevelUpData">
@@ -1668,6 +1573,71 @@
             属性单位值
             </summary>
         </member>
+        <member name="T:EConfig.GemShopData">
+            <summary>
+            钻石商店
+            </summary>
+        </member>
+        <member name="P:EConfig.GemShopData.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:EConfig.GemShopData.Icon">
+            <summary>
+            图片
+            </summary>
+        </member>
+        <member name="P:EConfig.GemShopData.BundleId">
+            <summary>
+            商店Key
+            </summary>
+        </member>
+        <member name="P:EConfig.GemShopData.Prices">
+            <summary>
+            价格
+            </summary>
+        </member>
+        <member name="P:EConfig.GemShopData.ReceiveCoin">
+            <summary>
+            获得钻石
+            </summary>
+        </member>
+        <member name="P:EConfig.GemShopData.OneOfValue">
+            <summary>
+            价值兑换
+            </summary>
+        </member>
+        <member name="T:EConfig.GoldShopData">
+            <summary>
+            金币商店
+            </summary>
+        </member>
+        <member name="P:EConfig.GoldShopData.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:EConfig.GoldShopData.Icon">
+            <summary>
+            图片
+            </summary>
+        </member>
+        <member name="P:EConfig.GoldShopData.Prices">
+            <summary>
+            价格
+            </summary>
+        </member>
+        <member name="P:EConfig.GoldShopData.ReceiveGold">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EConfig.GoldShopData.CoinOfGold">
+            <summary>
+            每个钻石多少金币
+            </summary>
+        </member>
         <member name="T:EConfig.ItemData">
             <summary>
             道具表
@@ -1758,69 +1728,24 @@
             货币类型
             </summary>
         </member>
-        <member name="T:EConfig.GoldShopData">
+        <member name="T:EConfig.LanguageData">
             <summary>
-            金币商店
+            怪物刷新组
             </summary>
         </member>
-        <member name="P:EConfig.GoldShopData.Name">
+        <member name="P:EConfig.LanguageData.Key">
             <summary>
-            名称
+            key
             </summary>
         </member>
-        <member name="P:EConfig.GoldShopData.Icon">
+        <member name="P:EConfig.LanguageData.ZH">
             <summary>
-            图片
+            中文
             </summary>
         </member>
-        <member name="P:EConfig.GoldShopData.Prices">
+        <member name="P:EConfig.LanguageData.EN">
             <summary>
-            价格
-            </summary>
-        </member>
-        <member name="P:EConfig.GoldShopData.ReceiveGold">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:EConfig.GoldShopData.CoinOfGold">
-            <summary>
-            每个钻石多少金币
-            </summary>
-        </member>
-        <member name="T:EConfig.GemShopData">
-            <summary>
-            钻石商店
-            </summary>
-        </member>
-        <member name="P:EConfig.GemShopData.Name">
-            <summary>
-            名称
-            </summary>
-        </member>
-        <member name="P:EConfig.GemShopData.Icon">
-            <summary>
-            图片
-            </summary>
-        </member>
-        <member name="P:EConfig.GemShopData.BundleId">
-            <summary>
-            商店Key
-            </summary>
-        </member>
-        <member name="P:EConfig.GemShopData.Prices">
-            <summary>
-            价格
-            </summary>
-        </member>
-        <member name="P:EConfig.GemShopData.ReceiveCoin">
-            <summary>
-            获得钻石
-            </summary>
-        </member>
-        <member name="P:EConfig.GemShopData.OneOfValue">
-            <summary>
-            价值兑换
+            english
             </summary>
         </member>
         <member name="T:EConfig.MagicLevelUpData">
@@ -1886,6 +1811,101 @@
         <member name="P:EConfig.MapData.BossPos">
             <summary>
             Boss刷怪点
+            </summary>
+        </member>
+        <member name="T:EConfig.MonsterData">
+            <summary>
+            怪物表
+            </summary>
+        </member>
+        <member name="P:EConfig.MonsterData.NamePrefix">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:EConfig.MonsterData.CharacterID">
+            <summary>
+            角色ID
+            </summary>
+        </member>
+        <member name="P:EConfig.MonsterData.Exp">
+            <summary>
+            杀死获得经验
+            </summary>
+        </member>
+        <member name="P:EConfig.MonsterData.Level">
+            <summary>
+            等级
+            </summary>
+        </member>
+        <member name="P:EConfig.MonsterData.HPMax">
+            <summary>
+            生命修正
+            </summary>
+        </member>
+        <member name="P:EConfig.MonsterData.DamageMin">
+            <summary>
+            伤害修正
+            </summary>
+        </member>
+        <member name="P:EConfig.MonsterData.DamageMax">
+            <summary>
+            伤害修正
+            </summary>
+        </member>
+        <member name="P:EConfig.MonsterData.Force">
+            <summary>
+            力量
+            </summary>
+        </member>
+        <member name="P:EConfig.MonsterData.Agility">
+            <summary>
+            敏捷
+            </summary>
+        </member>
+        <member name="P:EConfig.MonsterData.Knowledeg">
+            <summary>
+            智力
+            </summary>
+        </member>
+        <member name="T:EConfig.MonsterGroupData">
+            <summary>
+            怪物刷新组
+            </summary>
+        </member>
+        <member name="P:EConfig.MonsterGroupData.DropID">
+            <summary>
+            掉落ID
+            </summary>
+        </member>
+        <member name="P:EConfig.MonsterGroupData.MonsterID">
+            <summary>
+            怪物ID
+            </summary>
+        </member>
+        <member name="P:EConfig.MonsterGroupData.Pro">
+            <summary>
+            出现概率
+            </summary>
+        </member>
+        <member name="P:EConfig.MonsterGroupData.MonsterNumberMin">
+            <summary>
+            最少刷怪数
+            </summary>
+        </member>
+        <member name="P:EConfig.MonsterGroupData.MonsterNumberMax">
+            <summary>
+            最大刷怪数
+            </summary>
+        </member>
+        <member name="P:EConfig.MonsterGroupData.StandType">
+            <summary>
+            站位
+            </summary>
+        </member>
+        <member name="P:EConfig.MonsterGroupData.StandParams">
+            <summary>
+            参数
             </summary>
         </member>
         <member name="T:Proto.ExcelconstReflection">
